@@ -14,20 +14,20 @@ let s:t_Co = exists('&t_Co') && !empty(&t_Co) && &t_Co > 1 ? &t_Co : 2
 let g:colors_name = 'xshado'
 
 " 16 Bit colors
-let g:terminal_color_0 = '#140a1d'
+let g:terminal_color_0 = '#24081a'
 let g:terminal_color_1 = '#B52A5B'
 let g:terminal_color_2 = '#FF4971'
-let g:terminal_color_3 = '#8897F4'
-let g:terminal_color_4 = '#bd93f9'
+let g:terminal_color_3 = '#88eff4'
+let g:terminal_color_4 = '#93f9e1'
 let g:terminal_color_5 = '#E9729D'
 let g:terminal_color_6 = '#F18FB0'
 let g:terminal_color_7 = '#f1c4e0'
 " Bright
-let g:terminal_color_8 = '#a8899c'
+let g:terminal_color_8 = '#e0a6ca'
 let g:terminal_color_9 = '#B52A5B'
 let g:terminal_color_10 = '#FF4971'
-let g:terminal_color_11 = '#8897F4'
-let g:terminal_color_12 = '#bd93f9'
+let g:terminal_color_11 = '#88eff4'
+let g:terminal_color_12 = '#93f9e1'
 let g:terminal_color_13 = '#E9729D'
 let g:terminal_color_14 = '#F18FB0'
 let g:terminal_color_15 = '#f1c4e0'
@@ -37,19 +37,19 @@ au ColorScheme * hi Normal ctermbg=NONE guibg=NONE
 highlight SignColumn guibg=NONE
 
 if (has('termguicolors') && &termguicolors) || has('gui_running')
-  let g:terminal_ansi_colors = ['#140a1d', '#B52A5B', '#FF4971', '#8897F4',
-        \ '#bd93f9', '#E9729D', '#F18FB0', '#f1c4e0', '#a8899c', '#B52A5B',
-        \ '#FF4971', '#8897F4', '#bd93f9', '#E9729D', '#F18FB0', '#f1c4e0']
-  hi Normal guifg=#dfb7e8 guibg=NONE
+  let g:terminal_ansi_colors = ['#24081a', '#B52A5B', '#FF4971', '#88eff4',
+        \ '#93f9e1', '#E9729D', '#F18FB0', '#f1c4e0', '#e0a6ca', '#B52A5B',
+        \ '#FF4971', '#88eff4', '#93f9e1', '#E9729D', '#F18FB0', '#f1c4e0']
+  hi Normal guifg=#b7c8e8 guibg=NONE
 
-  hi Cursor guifg=#dfb7e8 guibg=#6161b3 guisp=#6161b3
+  hi Cursor guifg=#b7c8e8 guibg=#6161b3 guisp=#6161b3
   hi CursorLine guibg=#1B1B29 guisp=#6161b3
   hi CursorColumn guibg=#1B1B29 guisp=#6161b3
   hi LineNr guifg=#a1a1dd guibg=NONE
   hi CursorLineNr guifg=#de286e guibg=NONE
 
   hi Search guifg=#8be9fd guibg=NONE gui=bold  "#302b30
-  hi IncSearch guifg=#8be9fd guibg=NONE guisp=#8897F4 gui=bold
+  hi IncSearch guifg=#8be9fd guibg=NONE guisp=#88eff4 gui=bold
   " hi Visual guifg=NONE guibg=#40408f guisp=#40408f
   hi Visual guifg=NONE guibg=#414453
   hi EndOfBuffer guifg=#E9729D guibg=NONE
@@ -110,9 +110,9 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi Character guifg=#eba4e9 guibg=NONE
   hi Float guifg=#f72d7c guibg=NONE
   hi Number guifg=#de286e guibg=NONE
-  " hi String guifg=#bd93f9 guibg=NONE
+  " hi String guifg=#93f9e1 guibg=NONE
   hi String guifg=#6050dc guibg=NONE
-  hi StringDelimiter guifg=#bd93f9 guibg=NONE
+  hi StringDelimiter guifg=#93f9e1 guibg=NONE
   hi Boolean guifg=#6875ed guibg=NONE
 
   " PreProc "
@@ -128,7 +128,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi StorageClass guifg=#c081fa guibg=NONE
   hi Structure guifg=#ff7ab2 guibg=NONE
 
-  hi Title guifg=#8897F4 guibg=NONE gui=bold
+  hi Title guifg=#88eff4 guibg=NONE gui=bold
   hi Todo guifg=#302b30 guibg=#eba4e9 guisp=#eba4e9
   hi Quote guifg=#6272a4 guibg=NONE
 
@@ -147,7 +147,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   " hi Pmenu guifg=#7887ff guibg=NONE blend=0
   hi Pmenu guifg=#9ca7ff guibg=NONE blend=0
   hi PmenuSbar guifg=#a883a8 guibg=NONE blend=0
-  hi PmenuSel guifg=#bd93f9 guibg=NONE gui=bold,underline,standout blend=0
+  hi PmenuSel guifg=#93f9e1 guibg=NONE gui=bold,underline,standout blend=0
   hi PmenuThumb guifg=#eed6ee guibg=NONE blend=0
 
   hi NormalFloat guibg=NONE
@@ -160,7 +160,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi link LspDiagnosticsSignInformation MoreMsg
 
   " Telescope
-  hi TelescopeBorder guifg=#bd93f9
+  hi TelescopeBorder guifg=#93f9e1
 
   " Startify
   hi link StartifyBracket Delimiter
