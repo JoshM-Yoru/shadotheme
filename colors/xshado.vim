@@ -82,26 +82,26 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
   hi DiffDelete guifg=#de286e guibg=NONE gui=NONE guisp=#c9083f
   hi DiffText guifg=#e3d3eb guibg=#4d254d gui=NONE guisp=#4d254d
 
-  hi Comment guifg=#6272a4 guibg=NONE
-  hi Conceal guifg=#6272a4 guibg=NONE
+  hi Comment guifg=#62a4a3 guibg=NONE
+  hi Conceal guifg=#62a4a3 guibg=NONE
 
   hi Special guifg=#5d5daf guibg=NONE
-  hi SpecialComment guifg=#bc6bd0 guibg=NONE
+  hi SpecialComment guifg=#d06bbf guibg=NONE
   hi SpecialKey guifg=#a048ed guibg=NONE
-  hi SpecialChar guifg=#bc6bd0 guibg=NONE
-  hi Tag guifg=#bc6bd0 guibg=NONE
-  hi Delimiter guifg=#bc6bd0 guibg=NONE
+  hi SpecialChar guifg=#d06bbf guibg=NONE
+  hi Tag guifg=#d06bbf guibg=NONE
+  hi Delimiter guifg=#d06bbf guibg=NONE
 
   " Function "
-  hi Identifier guifg=#cd9ad9 guibg=NONE
-  hi Function guifg=#e086e0 guibg=NONE
+  hi Identifier guifg=#d99ac5 guibg=NONE
+  hi Function guifg=#e086d2 guibg=NONE
 
   " Statements "
   hi Statement guifg=#ff7ab2 guibg=NONE
-  hi Conditional guifg=#6876de guibg=NONE
-  hi Repeat guifg=#6876de guibg=NONE
-  hi Label guifg=#bc6bd0 guibg=NONE
-  hi Operator guifg=#6272a4 guibg=bold
+  hi Conditional guifg=#68b3de guibg=NONE
+  hi Repeat guifg=#68b3de guibg=NONE
+  hi Label guifg=#d06bbf guibg=NONE
+  hi Operator guifg=#62a4a3 guibg=bold
   hi Exception guifg=#943d84 guibg=NONE
   hi Keyword guifg=#ff7ab2 guibg=NONE gui=bold
   
@@ -130,10 +130,10 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
 
   hi Title guifg=#88eff4 guibg=NONE gui=bold
   hi Todo guifg=#302b30 guibg=#eba4e9 guisp=#eba4e9
-  hi Quote guifg=#6272a4 guibg=NONE
+  hi Quote guifg=#62a4a3 guibg=NONE
 
   hi Directory guifg=#ff7ab2 guibg=NONE
-  hi Debug guifg=#bc6bd0 guibg=NONE
+  hi Debug guifg=#d06bbf guibg=NONE
   hi NonText guifg=#2f3037 guibg=NONE
   " hi NonText guifg=#E9729D guibg=NONE
 
